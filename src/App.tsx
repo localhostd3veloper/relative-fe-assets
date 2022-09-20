@@ -13,6 +13,7 @@ function App() {
           change={item.change}
           pairs={item.pairs}
           Icon={item.icon}
+          gradColor={item.gradColor}
         />
       ))}
     </div>

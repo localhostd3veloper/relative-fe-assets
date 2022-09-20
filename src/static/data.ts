@@ -16,6 +16,7 @@ export const data = [
     tvl: "$60,000",
     pairs: [Solana, Ethereum, Binance],
     icon: Btc,
+    gradColor: "#EAB300",
   },
   {
     id: 2,
@@ -25,6 +26,7 @@ export const data = [
     tvl: "$60,000",
     pairs: [Solana, Ethereum, Binance],
     icon: Sol,
+    gradColor: "#DC1FFF",
   },
   {
     id: 3,
@@ -34,6 +36,7 @@ export const data = [
     tvl: "$60,000",
     pairs: [Solana, Ethereum, Binance],
     icon: Eth,
+    gradColor: "#EDF0F4",
   },
   {
     id: 4,
@@ -43,6 +46,7 @@ export const data = [
     tvl: "$60,000",
     pairs: [Solana, Ethereum, Binance],
     icon: Bin,
+    gradColor: "#EAB300",
   },
   {
     id: 5,
@@ -52,5 +56,6 @@ export const data = [
     tvl: "$60,000",
     pairs: [Solana, Ethereum, Binance],
     icon: Shib,
+    gradColor: "#E42D04",
   },
 ];
