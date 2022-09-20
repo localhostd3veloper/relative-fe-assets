@@ -14,11 +14,11 @@ function Card({ name, price, tvl, change, pairs, Icon, gradColor }: CardProps) {
   return (
     <div className="flex flex-col items-center">
       <div
-        className={`rounded-full h-[100px] -mb-12  w-[100px] flex justify-center items-center p-3 bg-gradient-to-b from-[#626A88]/10 to-[${gradColor}]/20`}
+        className={`rounded-full h-[100px] -mb-12  w-[100px] flex justify-center items-center p-3 bg-gradient-to-b from-[#626A88]/10 to-[${gradColor}]/20 z-10 backdrop-blur-md border-t border-gray-300/20`}
       >
         <Icon />
       </div>
-      <div className="bg-card px-5 bg-center object-contain bg-no-repeat flex flex-col gap-3 pb-8 w-full h-full pt-10 justify-center items-center">
+      <div className="bg-card px-5 bg-center backdrop-blur-lg flex flex-col gap-3 py-10 justify-center items-center">
         <div className="text-[#737BAE] font-medium text-sm mt-10">{name}</div>
         <div
           id="price"
